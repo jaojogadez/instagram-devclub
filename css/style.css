@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #fafafa;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font: normal normal 1em sans-serif;
+}
+.insta-logo {
+  margin: 0 0 20px;
+}
+.imagemCelular {
+  height: 520px;
+}
+.formContainer {
+  width: 350px;
+  border: 1px solid #dbdbdb;
+  padding: 50px 40px 20px 40px;
+  display: flex;
+  flex-flow: column nowrap;
+}
+input {
+  height: 36px;
+  margin-top: 5px;
+  border: 1px solid #dbdbdb;
+  outline: none;
+  border-radius: 5px;
+  padding-left: 7px;
+  color: #262626;
+}
+button {
+  background-color: #0095f6;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  height: 30px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+a{
+    cursor: pointer;
+    text-decoration: none;
+    color: #385185;
+    text-align: center;
+}
+.loginFacebook{
+    font: normal bold 14px sans-serif;
+    margin: 20px 0;
+}
+.esqueceuSenha{
+    font-size: 12px;
+}
