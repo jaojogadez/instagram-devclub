@@ -15,8 +15,18 @@ body {
 .insta-logo {
   margin: 0 0 20px;
 }
+.imagemContainer {
+  position: relative;
+}
 .imagemCelular {
   height: 520px;
+}
+.imagemInsta {
+  position: absolute;
+  height: 453px;
+  top: 20px;
+  left: 126px;
+  transition: opacity .5s ease-in-out;
 }
 .formContainer {
   width: 350px;
@@ -43,16 +53,21 @@ button {
   margin-top: 20px;
   cursor: pointer;
 }
-a{
-    cursor: pointer;
-    text-decoration: none;
-    color: #385185;
-    text-align: center;
+a {
+  cursor: pointer;
+  text-decoration: none;
+  color: #385185;
+  text-align: center;
 }
-.loginFacebook{
-    font: normal bold 14px sans-serif;
-    margin: 20px 0;
+.loginFacebook {
+  font: normal bold 14px sans-serif;
+  margin: 20px 0;
 }
-.esqueceuSenha{
-    font-size: 12px;
+.esqueceuSenha {
+  font-size: 12px;
+}
+@media screen and (max-width: 767px) {
+  .imagemContainer {
+    display: none;
+  }
 }

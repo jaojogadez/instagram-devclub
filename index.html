@@ -14,19 +14,44 @@
         class="imagemCelular"
         alt="Imagem de uma moldura de um celular com o app do Instagram"
       />
+      <img
+        src="images/insta1.png"
+        class="imagemInsta "
+        alt="Imgem do Instagram"
+      />
+      <img
+        src="images/insta2.png"
+        class="imagemInsta troca-imagem"
+        alt="Imgem do Instagram"
+      />
     </div>
-    <div class="formContainer">
-      <img src="images/insta-logo.png" class="insta-logo" alt="Logo do Instagram" />
+    <form class="formContainer" method="post" autocomplete="on">
+      <img
+        src="images/insta-logo.png"
+        class="insta-logo"
+        alt="Logo do Instagram"
+      />
 
-      <input type="text" placeholder="Telefone, nome de usuário ou email" />
-      <input type="password" placeholder="Senha" />
+      <input type="text" placeholder="Telefone, nome de usuário ou email" autocomplete="name" required/>
+      <input type="password" placeholder="Senha" autocomplete="current-password" required />
       <button type="button">Entrar</button>
-      <a href="http://" class="loginFacebook" target="_blank" rel="noopener noreferrer">
+      <a
+        href="http://"
+        class="loginFacebook"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         Entrar com o Facebook
       </a>
-      <a href="http://" class="esqueceuSenha" target="_blank" rel="noopener noreferrer">
+      <a
+        href="http://"
+        class="esqueceuSenha"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         Esqueceu a senha ?
       </a>
-    </div>
+    </form>
+    <script src="script.js"></script>
   </body>
 </html>
